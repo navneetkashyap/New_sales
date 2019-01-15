@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_item_ones"
+            android:icon="@drawable/ic_clints"
+            android:title="Clients"
+            tools:ignore="DuplicateIds" />
+        <item android:id="@+id/nav_item_two"
+            android:icon="@drawable/ic_call"
+            android:title="Today Call" />
+        <item android:id="@+id/nav_item_fours"
+            android:icon="@drawable/ic_folloeup"
+            android:title="Follow UP" />
+        <item android:id="@+id/nav_item_three"
+        android:icon="@drawable/ic_addmerchant"
+        android:title="Add Merchant" />
+
+        <item android:id="@+id/nav_item_report"
+        android:icon="@drawable/ic_downloads"
+        android:title="Download Reports" />
+
+        <item android:id="@+id/nav_item_addagent"
+            android:icon="@drawable/ic_agents"
+            android:title="Add Agent" />
+    </group>
+
+    <group android:id="@+id/group_menu">
+        <item android:id="@+id/nav_item_four"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+
+    </group>
+
+
+</menu>
