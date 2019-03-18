@@ -44,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
     int[] yAxisData = {50, 20, 15, 30, 20, 60, 15, 40, 45, 10, 90, 18};
     int[] yAxisData2 = {10, 20, 55, 40, 80, 20, 25, 20, 45, 10, 10, 8};
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
