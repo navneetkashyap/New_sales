@@ -1,5 +1,7 @@
 package com.allsport.watherapp;
 
+import android.util.Log;
+
 public class Grocery {
     public int productImage;
     public String productName;
@@ -7,6 +9,9 @@ public class Grocery {
     public Grocery(String productName, int productImage) {
         this.productImage = productImage;
         this.productName = productName;
+
+        Log.e("ddcd","dcdc");
+
     }
 
     public int getProductImage() {
@@ -20,6 +25,9 @@ public class Grocery {
     public String getProductName() {
         return productName;
     }
+
+
+
 
     public void setProductName(String productName) {
         this.productName = productName;
